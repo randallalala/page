@@ -11028,8 +11028,8 @@ p.lead {
     }
 
     #sideNav .navbar-brand .img-profile {
-        max-width: 10rem;
-        max-height: 10rem;
+        max-width: 17rem;
+        max-height: 17rem;
         border: 0.5rem solid rgba(255, 255, 255, 0.2);
     }
 
@@ -11107,4 +11107,54 @@ section.resume-section .resume-section-content {
         padding-top: 5rem;
         padding-bottom: 5rem;
     }
+}
+
+
+/* portfolio */
+.portfolio-item {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.portfolio-item-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  background-color: #ffc107;
+}
+.portfolio-item-caption:hover {
+  opacity: 1;
+}
+.portfolio-item-caption .portfolio-item-caption-content {
+  font-size: 20px;
+}
+
+.portfolio-modal .portfolio-modal-title {
+  font-size: 2.25rem;
+  line-height: 2rem;
+}
+@media (min-width: 992px) {
+  .portfolio-modal .portfolio-modal-title {
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+}
+.portfolio-modal .close {
+  position: absolute;
+  z-index: 1;
+  right: 1.5rem;
+  top: 1rem;
+  font-size: 3rem;
+  line-height: 3rem;
+  color: #343a40;
+  opacity: 1;
+}
+
+body:not(.modal-open){
+  padding-right: 0px !important;
 }
