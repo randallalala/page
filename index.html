@@ -84,7 +84,9 @@
                   <a class="url" href="https://codepen.io/Randallalala/pen/rNwVbGY#_=_
                   " target=”_blank”><img class="timeline" src="assets/img/timeline.jpg" alt="" /></a>
                </p>
-               </p>
+                  <!-- <div class="img-magnifier-container">
+                     <img id="myimage" src="assets/img/timeline.jpg" width="600" height="400" >
+                   </div> -->
                <br/>
                <div class="social-icons">
                   <a class="social-icon" href="https://www.linkedin.com/in/randall-limwj/"><i class="fab fa-linkedin-in"></i></a>
@@ -107,6 +109,35 @@
             </div>
             <!-- Portfolio Grid Items-->
             <div class="row">
+               <!-- Portfolio 5 ONEREHAB-->
+               <div class="col-md-6 col-lg-4 mb-5">
+                  <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                        <img src="assets/img/onerehab2.jpg" style="max-height: 100%" />
+                     </div>
+                     <img class="img-fluid" src="assets/img/onerehab.jpg" alt="" />
+                  </div>
+                  <div class="portfolio-item-caption-content text-center text-dark mt-3">
+                     <form action="https://github.com/randallalala/t-planner" target="_blank">
+                        <h4>
+                           One Rehab
+                        </h4>
+                     </form>
+                     <p class="mx-2">A National Project by IHiS iConnect Team</p>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-center mx-2" style="margin-top: 30px">
+                     <span class="badge badge-primary text-dark mr-1">Nginx</span>
+                     <span class="badge badge-primary text-dark mr-1">Redis</span>
+                     <span class="badge badge-primary text-dark mr-1">Dynatrace</span>
+                     <span class="badge badge-primary text-dark mr-1">React</span>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-center mx-2 mt-1">
+                     <span class="badge badge-primary text-dark mr-1">Seq</span>
+                     <span class="badge badge-primary text-dark mr-1">Docker</span>
+                     <span class="badge badge-primary text-dark mr-1">Rabbitmq</span>
+                     <span class="badge badge-primary text-dark mr-1">Praqma</span>
+                  </div>
+               </div>
                <!-- Portfolio Item 1-->
                <div class="col-md-6 col-lg-4 mb-5">
                   <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
@@ -366,7 +397,7 @@
             <h2 class="mb-5">Interests</h2>
             <p>
                badminton | 
-               <a href="" data-toggle="modal" data-target="#cooking"> cooking | <a href="" data-toggle="modal" data-target="#climbing">climbing</a> |
+               <a href="" data-toggle="modal" data-target="#cooking">cooking</a> | <a href="" data-toggle="modal" data-target="#climbing">climbing</a> |
                <a href="" data-toggle="modal" data-target="#drinks">craftbeers & ginbars</a>
             </p>
             <p>
@@ -374,11 +405,10 @@
                   href="https://www.youtube.com/watch?v=dQw4w9WgXcQ/"
                   target="_blank"
                   >cycling</a> |
-               <a
-                  href="https://www.instagram.com/noodlethemeoww/"
-                  target="_blank"
-                  >noodle</a
-               > |
+               <a href="https://www.instagram.com/noodlethemeoww/"
+                  target="_blank"> noodle
+                  </a > 
+               |
                <a
                   href="https://www.google.com/search?q=ducks+cute&sxsrf=ALeKk01df-_UYUmJ9QEYoCnbaaot9aX-4w:1600327452337&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjVlsiq1O_rAhWk4nMBHYtlClEQ_AUoAXoECAwQAw&biw=1520&bih=801"
                   target="_blank"
@@ -392,6 +422,33 @@
       <hr class="m-0" />
 
       <!-- Portfolio Modals-->
+      <!-- Portfolio Modal five onerehab-->
+      <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5Label" aria-hidden="true">
+         <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+               <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true"><i class="fas fa-times"></i></span>
+               </button>
+               <div class="modal-body text-center">
+                  <div class="container">
+                     <div class="row justify-content-center">
+                        <div class="col-lg-8 text-secondary">
+                           <!-- Portfolio Modal - Title-->
+                           <h2 class="portfolio-modal-title text-secondary text-uppercase mb-4" id="portfolioModal5Label">
+                              <a href="https://onerehab-uat.iconnect.care/" target="_blank">One Rehab</a>
+                           </h2>
+
+                           <!-- Portfolio Modal - Text-->
+<p> page under construction..</p>
+                        </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
       <!-- Portfolio Modal 1-->
       <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
          <div class="modal-dialog modal-xl" role="document">
@@ -762,7 +819,7 @@
                </button>
                <div class="modal-body text-center">
                   <div class="row justify-content-center">
-                     <iframe src="https://www.google.com/maps/d/embed?mid=1vwtIuX2aC0CQCixA741csFpUuD4V3_Cs" width="640" height="480"></iframe>
+                     <iframe src="https://www.google.com/maps/d/embed?mid=1vwtIuX2aC0CQCixA741csFpUuD4V3_Cs" width="900" height="675"></iframe>
                   </div>
                </div>
             </div>
@@ -783,6 +840,20 @@
             </div>
          </div>
       </div>
+      <!-- noodle modal-->
+      <div class="portfolio-modal modal fade" id="noodle" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+         <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+               <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true"><i class="fas fa-times"></i></span>
+               </button>
+               <div class="modal-body text-center">
+                  <div class="row justify-content-center">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
       <!-- cooking modal-->
       <div class="portfolio-modal modal fade" id="cooking" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
          <div class="modal-dialog modal-xl" role="document">
@@ -792,7 +863,33 @@
                </button>
                <div class="modal-body text-center">
                   <div class="row justify-content-center">
-                     <img src="assets/cooking/run.jpg" alt="" style="width: 50%; height: auto" />
+                     <section class="imageCollage">
+                        <img src="assets/cooking/brisket.jpg"  alt="Placeholder">
+                        <img src="assets/cooking/chop.jpg" alt="Placeholder">
+                        <img src="assets/cooking/clams.jpg" alt="Placeholder">
+                        <img src="assets/cooking/dongpo.jpg" alt="Placeholder">
+                        <img src="assets/cooking/fried.jpg" alt="Placeholder">
+                        <img src="assets/cooking/garlic.jpg" alt="Placeholder">
+                        <img src="assets/cooking/golden.jpg" alt="Placeholder">
+                        <img src="assets/cooking/herbal.jpg" alt="Placeholder">
+                        <img src="assets/cooking/lurou.jpg" alt="Placeholder">
+                        <img src="assets/cooking/minestrone.jpg" alt="Placeholder">
+                        <img src="assets/cooking/mongolian.jpg" alt="Placeholder">
+                        <img src="assets/cooking/mush.jpg" alt="Placeholder">
+                        <img src="assets/cooking/mussels.jpg" alt="Placeholder">
+                        <img src="assets/cooking/mutton.jpg" alt="Placeholder">
+                        <img src="assets/cooking/pasta.jpg" alt="Placeholder">
+                        <img src="assets/cooking/picnic.jpg" alt="Placeholder">
+                        <img src="assets/cooking/plov.jpg" alt="Placeholder">
+                        <img src="assets/cooking/pork.jpg" alt="Placeholder">
+                        <img src="assets/cooking/potat.jpg" alt="Placeholder">
+                        <img src="assets/cooking/quiche.jpg" alt="Placeholder">
+                        <img src="assets/cooking/rendang.jpg" alt="Placeholder">
+                        <img src="assets/cooking/soup.jpg" alt="Placeholder">
+                        <img src="assets/cooking/steak.jpg" alt="Placeholder">
+                        <img src="assets/cooking/stew.jpg" alt="Placeholder">
+                        <img src="assets/cooking/torch.jpg" alt="Placeholder">
+                     </section>
                   </div>
                </div>
             </div>
@@ -980,6 +1077,11 @@
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
       <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
-      <script src="js/scripts.js"></script>
+      <!-- <script>
+         /* Execute the magnify function: */
+         magnify("myimage", 3);
+         /* Specify the id of the image, and the strength of the magnifier glass: */
+         </script>
+         <script src="js/scripts.js"></script> -->
    </body>
 </html>
