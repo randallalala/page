@@ -81,6 +81,7 @@ body {
     text-align: left;
     background-color: #d3d3d3 ;
     /* background-image: url('/bg.jpg') ; */
+    
 }
 
 /* img{
@@ -97,7 +98,7 @@ hr {
     overflow: visible;
 }
 
-h1,
+
 h2,
 h3,
 h4,
@@ -11360,3 +11361,11 @@ section.resume-section .resume-section-content {
 body:not(.modal-open){
   padding-right: 0px !important;
 }
+
+img.timeline {
+   border-radius: 10px;
+   width: 1300px;
+   max-width: 100%;
+   height: auto;
+
+ }
